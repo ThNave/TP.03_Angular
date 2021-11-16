@@ -27,4 +27,4 @@ Page contenant la table calculée
 ![screenshot](https://user-images.githubusercontent.com/78152375/142063514-3d86f2db-b3e2-4a3e-9f6e-8944e7ea3ebe.PNG)
 
 
-Lien du dépôt Github : https://github.com/Rayquane/TP-3.2-Angular-Multiplication
+Lien du dépôt Github : https://github.com/ThNave/TP.03_Angular.git

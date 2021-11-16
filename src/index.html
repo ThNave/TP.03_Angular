@@ -1,0 +1,61 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">
+      
+    </a>
+  </div>
+  <div id="navbarBasic" class="navbar-menu">
+    <div class="navbar-start">
+      
+    </div>
+  </div>
+</nav>
+<section class="section">
+  <div class="container">
+    <div class="column">
+      <h1 class="title is-1">Multiplication</h1>
+
+
+      <app-table-multiplication></app-table-multiplication>
+      
+      <form>
+        <input type="text" placeholder="Entrez une valeur ici" id="in">
+        <button type="button" onclick="getValue();">Récupérer la valeur</button>
+  </form>
+
+  
+
+
+      <script type="text/javascript">
+       function getValue() {
+    // Sélectionner l'élément input et récupérer sa valeur
+    var input = document.getElementById("in").value;
+    // Afficher la valeur
+    //document.write(input);
+
+     document.write("table de "+ input + '<br>') 
+  
+      for (let i = 1; i<=10; i++){
+        const result = i * input;
+        document.write(i+" * "+input+" = ");
+        document.write(result + '<br>');
+      }
+      
+}
+      </script>
+
+
+
+
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Template réalisé à partir du framework CSS <a href="https://bulma.io">Bulma</a>
+      </p>
+    </div>
+  </div>
+</footer>
